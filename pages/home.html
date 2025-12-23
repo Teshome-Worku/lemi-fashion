@@ -1,0 +1,1680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lemi Fashion</title>
+    <link rel="icon" href="/public/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Lemi Fashion</div>
+            <div class="wishlist-nav">
+                <span class="nav-heart">❤️</span>
+                <span class="wishlist-count">0</span>
+            </div>
+            <div id="cart-icon">
+
+                <i class="ri-shopping-bag-line"></i>
+                <span class="cart-item-count"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#Home" title="Home">Home</a></li>
+                <li><a href="#products" title="Products">Products</a></li>
+                <li><a href="#about-us" title="About us">About</a></li>
+                <li><a href="#contact" title="Contact us">Contact Us</a></li>
+
+            </ul>
+            <div class="menu-icon">☰</div>
+        </nav>
+    </header>
+    <!-- cart section -->
+    <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+            <!-- <div class="cart-box">
+                <img src="/public/images/clothes/c10.jpg" alt="added product" class="cart-img">
+                <div class="cart-detail">
+                    <h2 class="cart-product-title">Black Jacket</h2>
+                    <span class="cart-price">$100</span>
+                    <div class="cart-quantity">
+                        <button id="decrement">-</button>
+                        <span class="number">1</span>
+                        <button id="increment">+</button>
+                    </div>
+                </div>
+                <i class="ri-delete-bin-line cart-remove"></i>
+            </div> -->
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+        </div>
+        <button class="btn-buy">Buy Now</button>
+        <i class="ri-close-line" id="cart-close"></i>
+
+    </div>
+
+
+    <div class="hero-section" id="Home">
+
+        <div class="container">
+            <h1 class="head text">Step Into Style with Lemi Fashion </h1><br>
+            <p class="subhead text">Discover trendy shoes, elegant clothes, and modern accessories — all in one place.</p>
+            <button class="shop-now"><a href="#products">Shop Now</a></button>
+            <button class="learn-more"><a href="#about-us">Read more...</a></button>
+        </div>
+        <!-- <div class="image-container"><img src="/public/images/best2-removebg-preview.png" alt="shoes-image"><br> -->
+    </div>
+
+
+    <!-- <section class="title-section"> -->
+    <div class="product-title" id="products">
+        <h2>Our Products</h2>
+        <p>Browse the latest shoes,clothes and accessories</p>
+    </div>
+
+    <div class="intro">
+        <div class="visiblePart" data-category="Shoes" data-product-id="1">
+            <div class="wishlist-icon">
+                <i class="heart">&#10084;</i>
+            </div>
+            <div class="image-wrapper">
+                <img src="/public/images/shoes/shoe1.jpg" alt="Product 1">
+
+                <!-- Quick View Button -->
+                <button class="quick-view-btn">Quick View</button>
+            </div>
+            <h3 class="product-title">Sporty Sneakers</h3>
+            <p class="detailsOf">some details of the products goes here...</p>
+            <div class="price-row">
+                <span class="price">$59.99</span>
+
+                <select class="price-select">
+                    <option value="USDT" selected>USDT</option>
+                    <option value="ETB">ETB</option>
+                </select>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="visiblePart" data-category="Shoes" ata-product-id="2">
+            <div class="wishlist-icon">
+                <i class="heart">&#10084;</i>
+            </div>
+            <div class="image-wrapper">
+                <img src="/public/images/shoes/shoe1.jpg" alt="Product 1">
+
+                <!-- Quick View Button -->
+                <button class="quick-view-btn">Quick View</button>
+            </div>
+            <h3 class="product-title">Sporty Sneakers</h3>
+            <p class="detailsOf">some details of the products goes here...</p>
+            <div class="price-row">
+                <span class="price">$59.99</span>
+
+                <select class="price-select">
+                    <option value="USDT" selected>USDT</option>
+                    <option value="ETB">ETB</option>
+                </select>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="visiblePart" data-category="Shoes" data-product-id="3">
+            <div class="wishlist-icon">
+                <i class="heart">&#10084;</i>
+            </div>
+            <div class="image-wrapper">
+                <img src="/public/images/shoes/shoe1.jpg" alt="Product 1">
+
+                <!-- Quick View Button -->
+                <button class="quick-view-btn">Quick View</button>
+            </div>
+            <h3 class="product-title">Sporty Sneakers</h3>
+            <p class="detailsOf">some details of the products goes here...</p>
+            <div class="price-row">
+                <span class="price">$59.99</span>
+
+                <select class="price-select">
+                    <option value="USDT" selected>USDT</option>
+                    <option value="ETB">ETB</option>
+                </select>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="visiblePart" data-category="Shoes" data-product-id="4">
+            <div class="wishlist-icon">
+                <i class="heart">&#10084;</i>
+            </div>
+            <div class="image-wrapper">
+                <img src="/public/images/shoes/shoe1.jpg" alt="Product 1">
+
+                <!-- Quick View Button -->
+                <button class="quick-view-btn">Quick View</button>
+            </div>
+            <h3 class="product-title">Sporty Sneakers</h3>
+            <p class="detailsOf">some details of the products goes here...</p>
+            <div class="price-row">
+                <span class="price">$59.99</span>
+
+                <select class="price-select">
+                    <option value="USDT" selected>USDT</option>
+                    <option value="ETB">ETB</option>
+                </select>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="visiblePart" data-category="Shoes" data-product-id="5">
+            <div class="wishlist-icon">
+                <i class="heart">&#10084;</i>
+            </div>
+            <div class="image-wrapper">
+                <span></span>
+                <img src="/public/images/shoes/shoe1.jpg" alt="Product 1">
+
+                <!-- Quick View Button -->
+                <button class="quick-view-btn">Quick View</button>
+            </div>
+            <h3 class="product-title">Sporty Sneakers</h3>
+            <p class="detailsOf">some details of the products goes here...</p>
+            <div class="price-row">
+                <span class="price">$59.99</span>
+
+                <select class="price-select">
+                    <option value="USDT" selected>USDT</option>
+                    <option value="ETB">ETB</option>
+                </select>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="visiblePart" data-category="Shoes" data-product-id="6">
+            <div class="wishlist-icon">
+                <i class="heart">&#10084;</i>
+            </div>
+            <div class="image-wrapper">
+                <img src="/public/images/shoes/shoe1.jpg" alt="Product 1">
+
+                <!-- Quick View Button -->
+                <button class="quick-view-btn">Quick View</button>
+            </div>
+            <h3 class="product-title">Sporty Sneakers</h3>
+            <p class="detailsOf">some details of the products goes here...</p>
+            <div class="price-row">
+                <span class="price">$59.99</span>
+
+                <select class="price-select">
+                    <option value="USDT" selected>USDT</option>
+                    <option value="ETB">ETB</option>
+                </select>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="visiblePart" data-category="Shoes" data-product-id="7">
+            <div class="wishlist-icon">
+                <i class="heart">&#10084;</i>
+            </div>
+            <div class="image-wrapper">
+                <img src="/public/images/shoes/shoe1.jpg" alt="Product 1">
+
+                <!-- Quick View Button -->
+                <button class="quick-view-btn">Quick View</button>
+            </div>
+            <h3 class="product-title">Sporty Sneakers</h3>
+            <p class="detailsOf">some details of the products goes here...</p>
+            <div class="price-row">
+                <span class="price">$59.99</span>
+
+                <select class="price-select">
+                    <option value="USDT" selected>USDT</option>
+                    <option value="ETB">ETB</option>
+                </select>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="visiblePart" data-category="Shoes" data-product-id="8">
+            <div class="wishlist-icon">
+                <i class="heart">&#10084;</i>
+            </div>
+            <div class="image-wrapper">
+                <img src="/public/images/shoes/shoe1.jpg" alt="Product 1">
+
+                <!-- Quick View Button -->
+                <button class="quick-view-btn">Quick View</button>
+            </div>
+            <h3 class="product-title">Sporty Sneakers</h3>
+            <p class="detailsOf">some details of the products goes here...</p>
+            <div class="price-row">
+                <span class="price">$59.99</span>
+
+                <select class="price-select">
+                    <option value="USDT" selected>USDT</option>
+                    <option value="ETB">ETB</option>
+                </select>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="product-filter">
+        <h2>Shop by category</h2>
+        <div class="filter-buttons">
+            <button class="filter-btn current" data-category="All">All</button>
+            <button class="filter-btn" data-category="Shoes">Shoes</button>
+            <button class="filter-btn" data-category="Clothes">Clothes</button>
+            <button class="filter-btn" data-category="bags">Bags</button>
+            <button class="filter-btn" data-category="Accessories">Accessories</button>
+        </div>
+    </div>
+    <!-- </section> -->
+
+    <section class="product-grid-section">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product-card animate" data-category="Shoes">
+                        <div class="wishlist-icon">
+                            <i class="heart">&#10084;</i>
+                        </div>
+                        <img src="/public/images/shoes/shoe1.jpg" alt="Product 1">
+                        <h3 class="product-title">Sporty Sneakers</h3>
+                        <!-- <p class="price">$59.99</p> -->
+                        <span class="price">$59.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                            <span class="currency-flag"><img src="/public/images/united-states.png" alt="currency flag"></span>
+
+                        </select><br>
+                        <!-- <span class="currency-flag"><img src="/public/images/united-states.png" alt="currency flag"></span> -->
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Shoes">
+                        <div class="wishlist-icon">
+                            <i class="heart">&#10084;</i>
+                        </div>
+                        <img src="/public/images/shoes/shoe.png" alt="Product 2">
+                        <h3>Casual T-Shirt</h3>
+                        <!-- <p class="price">$19.99</p> -->
+                        <span class="price">$19.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Shoes">
+                        <img src="/public/images/shoes/shoes.png" alt="Product 3">
+                        <h3>Leather Handbag</h3>
+                        <!-- <p class="price">$79.99</p> -->
+                        <span class="price">$79.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Shoes">
+                        <img src="/public/images/shoes/shoes1.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Shoes">
+                        <img src="/public/images/shoes/shoe1.png" alt="Product 1">
+                        <h3>Sporty Sneakers</h3>
+                        <!-- <p class="price">$59.99</p> -->
+                        <span class="price">$59.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" >USDT</option>
+                            <option value="ETB" selected>ETB</option>
+                         </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Shoes">
+                        <img src="/public/images/shoes/shoe.png" alt="Product 2">
+                        <h3>Casual T-Shirt</h3>
+                        <!-- <p class="price">$19.99</p> -->
+                        <span class="price">$19.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Shoes">
+                        <img src="/public/images/shoes/shoes(1).jpg" alt="Product 3">
+                        <h3>Leather Handbag</h3>
+                        <!-- <p class="price">$79.99</p> -->
+                        <span class="price">$79.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Sheos">
+                        <img src="/public/images/shoes/shoe1.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Accessories">
+                        <img src="/public/images/accessaries/belt.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Accessories">
+                        <img src="/public/images/accessaries/neck1.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Accessories">
+                        <img src="/public/images/accessaries/neck2.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Accessories">
+                        <img src="/public/images/accessaries/necklace.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Accessories">
+                        <img src="/public/images/accessaries/watch.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Accessories">
+                        <img src="/public/images/accessaries/watch1.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Accessories">
+                        <img src="/public/images/accessaries/watch2.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Accessories">
+                        <img src="/public/images/accessaries/watch3.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Accessories">
+                        <img src="/public/images/accessaries/watch4.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Accessories">
+                        <img src="/public/images/accessaries/watch5.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Accessories">
+                        <img src="/public/images/accessaries/watch6.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Accessories">
+                        <img src="/public/images/accessaries/watch7.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Accessories">
+                        <img src="/public/images/accessaries/watch8.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Accessories">
+                        <img src="/public/images/accessaries/watch9.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Accessories">
+                        <img src="/public/images/accessaries/watch10.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Accessories">
+                        <img src="/public/images/accessaries/watch11.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe23.jpg" alt="Product 2">
+                        <h3>Casual T-Shirt</h3>
+                        <!-- <p class="price">$19.99</p> -->
+                        <span class="price">$19.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe22.jpg" alt="Product 3">
+                        <h3>Leather Handbag</h3>
+                        <!-- <p class="price">$79.99</p> -->
+                        <span class="price">$79.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe21.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="Shoes">
+                        <img src="/public/images/shoes/shoe20.jpg" alt="Product 1">
+                        <h3>Sporty Sneakers</h3>
+                        <!-- <p class="price">$59.99</p> -->
+                        <span class="price">$59.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" >USDT</option>
+                            <option value="ETB" selected>ETB</option>
+                         </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe19.jpg" alt="Product 2">
+                        <h3>Casual T-Shirt</h3>
+                        <!-- <p class="price">$19.99</p> -->
+                        <span class="price">$19.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe18.jpg" alt="Product 3">
+                        <h3>Leather Handbag</h3>
+                        <!-- <p class="price">$79.99</p> -->
+                        <span class="price">$79.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe17.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe16.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe15.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe14.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe13.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe12.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe11.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe10.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe9.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe8.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe7.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe6.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe5.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe4.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe3.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe2.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="shoes">
+                        <img src="/public/images/shoes/shoe1.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c23.jpg" alt="Product 2">
+                        <h3>Casual T-Shirt</h3>
+                        <!-- <p class="price">$19.99</p> -->
+                        <span class="price">$19.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c22.jpg" alt="Product 3">
+                        <h3>Leather Handbag</h3>
+                        <!-- <p class="price">$79.99</p> -->
+                        <span class="price">$79.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c21.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c20.jpg" alt="Product 1">
+                        <h3>Sporty Sneakers</h3>
+                        <!-- <p class="price">$59.99</p> -->
+                        <span class="price">$59.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" >USDT</option>
+                            <option value="ETB" selected>ETB</option>
+                         </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c19.jpg" alt="Product 2">
+                        <h3>Casual T-Shirt</h3>
+                        <!-- <p class="price">$19.99</p> -->
+                        <span class="price">$19.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c18.jpg" alt="Product 3">
+                        <h3>Leather Handbag</h3>
+                        <!-- <p class="price">$79.99</p> -->
+                        <span class="price">$79.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c17.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c16.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c15.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c14.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c13.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c12.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c10.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c10.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c9.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c8.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c7.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c6.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c5.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c4.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c3.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c2.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="clothes">
+                        <img src="/public/images/clothes/c1.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="bags">
+                        <img src="/public/images/bags/b20.jpg" alt="Product 1">
+                        <h3>Sporty Sneakers</h3>
+                        <!-- <p class="price">$59.99</p> -->
+                        <span class="price">$59.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" >USDT</option>
+                            <option value="ETB" selected>ETB</option>
+                         </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="bags">
+                        <img src="/public/images/bags/b19.jpg" alt="Product 2">
+                        <h3>Casual T-Shirt</h3>
+                        <!-- <p class="price">$19.99</p> -->
+                        <span class="price">$19.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="bags">
+                        <img src="/public/images/bags/b18.jpg" alt="Product 3">
+                        <h3>Leather Handbag</h3>
+                        <!-- <p class="price">$79.99</p> -->
+                        <span class="price">$79.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="bags">
+                        <img src="/public/images/bags/b17.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="bags">
+                        <img src="/public/images/bags/b16.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="bags">
+                        <img src="/public/images/bags/b15.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="bags">
+                        <img src="/public/images/bags/b14.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="bags">
+                        <img src="/public/images/bags/b13.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="bags">
+                        <img src="/public/images/bags/b12.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="bags">
+                        <img src="/public/images/bags/b11.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="bags">
+                        <img src="/public/images/bags/b10.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="bags">
+                        <img src="/public/images/bags/b9.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="bags">
+                        <img src="/public/images/bags/b8.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="bags">
+                        <img src="/public/images/bags/b7.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="bags">
+                        <img src="/public/images/bags/b6.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="bags">
+                        <img src="/public/images/bags/b5.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="bags">
+                        <img src="/public/images/bags/b4.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="bags">
+                        <img src="/public/images/bags/b3.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="bags">
+                        <img src="/public/images/bags/b2.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-card" data-category="bags">
+                        <img src="/public/images/bags/b1.jpg" alt="Product 4">
+                        <h3>Stylish Sunglasses</h3>
+                        <!-- <p class="price">$29.99</p> -->
+                        <span class="price">$29.99</span>
+                        <select name="product-price" id="" class="price-select">
+                            <option value="USDT" selected>USDT</option>
+                            <option value="ETB">ETB</option>
+                        </select><br>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="shop-btn">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about-us">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="/public/images/lemi.jpg" alt="CEO of Lemi Fashion">
+                <h3 class="ceo-name">Lemi S Gemechu</h3>
+                <p class="ceo-title">Founder & CEO, Lemi Fashion</p>
+            </div>
+
+            <div class="about-content">
+                <h2>About Lemi Fashion</h2>
+                <p>
+                    Founded with a passion for style and quality, <strong>Lemi Fashion</strong> brings together comfort, creativity, and confidence. We aim to empower individuals to express themselves through fashion that feels as good as it looks.
+                </p>
+
+                <div class="mission-vision">
+                    <div class="mission">
+                        <h3>Our Mission</h3>
+                        <p>
+                            To inspire confidence and self-expression through affordable, authentic, and stylish fashion.
+                        </p>
+                    </div>
+                    <div class="vision">
+                        <h3>Our Vision</h3>
+                        <p>
+                            To become a leading fashion brand that connects people through originality, comfort, and quality.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about-values">
+                    <h3>Our Values</h3>
+                    <ul>
+                        <li>✨ Quality materials and craftsmanship</li>
+                        <li>💎 Honesty and authenticity in every design</li>
+                        <li>🌍 Commitment to sustainability</li>
+                        <li>🤝 Customer-first approach</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section" id="contact">
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>
+                Have a question, feedback, or just want to say hi? We'd love to hear from you! Reach us through the contact form or any of the platforms below.
+            </p>
+
+            <div class="info-item">
+                <span><img src="/public/images/icons/google-maps.png" alt="location_on"> Address:</span> Holeta, Ethiopia
+            </div>
+            <div class="info-item">
+                <span>📞 Phone:</span> +251 915 461 655
+            </div>
+            <div class="info-item">
+                <span>📧 Email:</span><a href="mailto:teshomeworku96@gmail.com">teshomeworku96@gmail.com</a>
+            </div>
+            <p class="follow"> Follow Us </p>
+            <div class="social-links">
+                <a href="https://t.me/lamii2456" title="Telegram" target="_blank"><img src="/public/images/icons/telegram.png" alt="telegram"></a>
+                <a href="#" title="Instagram" target="_blank"><img src="/public/images/icons/instagram.png" alt="Instagram"></a>
+                <a href="https://web.facebook.com/search/top?q=lemi%20s%20gemachu" title="Facebook" target="_blank"><img src="/public/images/icons/facebook.png" alt="Facebook"></a>
+                <a href="https://www.tiktok.com/@lemionlineshop1" title="TikTok" target="_blank"><img src="/public/images/icons/tiktok.png" alt="TikTok"></a>
+                <a href="#" title="Youtube" target="_blank"><img src="/public/images/icons/youtube.png" alt="Youtube"></a>
+            </div>
+            <div class="findus">Find us on Google Maps
+                <a href="https://www.google.com/maps/place/Lammii+tiktoker+shop/@9.0639978,38.4940707,41m/data=!3m1!1e3!4m6!3m5!1s0x164c7b0001948ec5:0xe21e6939f24d26b7!8m2!3d9.0639785!4d38.4939986!16s%2Fg%2F11lyz3vhw8!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D"
+                    target="_blank" title="Holeta Town"> find us</a>
+                <p>or</p>
+                <a target="_blank" title="Holeta Town" href="https://www.google.com/maps/place/Lammii+tiktoker+shop/@9.0639978,38.4940707,41m/data=!3m1!1e3!4m6!3m5!1s0x164c7b0001948ec5:0xe21e6939f24d26b7!8m2!3d9.0639785!4d38.4939986!16s%2Fg%2F11lyz3vhw8!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D"><img src="/public/images/lamitiktokershop.png" alt="Holeta location map" class="location-map"></a>
+            </div>
+
+        </div>
+
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="/sendMail" method="POST" id="contactForm">
+                <input type="text" name="name" placeholder="Full Name" minlength="3" maxlength="50" required autocomplete="name">
+                <p class=" error nameError"></p>
+                <input type="text" name="phone" placeholder="Phone... +251 900 000 0000" required autocomplete="tel">
+                <p class="error phoneError"></p>
+                <input type="email" name="email" placeholder="Email Address ...yourname@gmail.com" required autocomplete="off">
+                <p class="error emailError"></p>
+                <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+                <p class="error messageError"></p>
+                <button type="submit" id="sendBtn">
+                    <span class="btn-text">Send Message</span>
+                    <span class="spinner hidden"></span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#Home">Home</a> |
+            <a href="#products">Products</a> |
+            <a href="#about-us">About</a> |
+            <a href="#contact">Contact</a>
+        </div>
+        <p>&copy; 2025 Lemi Fashion. All Rights Reserved.</p>
+        <p>Designed with ❤️ by Teshe</p>
+    </footer>
+
+    <div id="popup" class="popup">
+        <img src="/public/images/icons/check.png" alt="success icon" class="successImg">
+        <img src="/public/images/icons/exclamation-mark.png" alt="error icon" class="errorImg">
+
+        <h3 id="popupMessage"></h3>
+        <button id="closePopup">OK</button>
+    </div>
+    <div class="overLay-background" id="overlay"></div>
+    <script src="/public/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="/public/js/swiper.js"></script>
+</body>
+
+</html>
