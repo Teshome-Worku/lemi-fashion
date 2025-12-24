@@ -210,7 +210,7 @@ const server = http.createServer((req, res) => {
             //     .catch(err => console.error("Telegram error:", err));
         });
     } else {
-        let filePath = path.join(__dirname, "public", req.url === "/" ? "index.html" : req.url + ".html");
+        let filePath = path.join(__dirname,   "public", req.url === "/" ? "index.html" : req.url + ".html");
         fs.readFile(filePath, (err, content) => {
             if (err) {
                 fs.readFile(path.join(__dirname, "public", "404.html"), (err, data) => {
